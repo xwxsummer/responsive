@@ -1,0 +1,44 @@
+@media all and ( max-width:768px ){
+
+.inner{width: 90%; margin: 0 auto;}
+.header{ width: 100%; height: auto; background-size: cover; position: relative;}
+.header h1{font-size: 30px;padding-top: 60px;}
+.header p{ font-size: 14px; padding-bottom: 80px;}
+.nav{display:none; width: 100%; position:fixed; top:0;clear: both; left: 0; margin: 0;}
+.icon{font-family: iconfont; text-decoration: none; border-radius: 5px; width: 45px; height: 35px; line-height: 35px; position:fixed; top:5px; left: 5px; display: block;background-color:rgba(0,0,0,0.5); color: #fff; text-align: center; }
+.nav ul{ background-color:rgba(0,0,0,0.6);color: #afa9a9; width: 100%;  }
+.nav ul li{ float: none; width: 100%; text-align: center; line-height: 30px;}
+.nav ul li a{  width: 100%; padding: 0;}
+.nav ul li .click{color: #fff; border-radius: 0; border:none;}
+.content{ width: 100%;}
+.con{ margin-top: 10%;}
+.con h2{ font-size: 16px;}
+.con .tit{font-size: 14px; line-height: 20px;}
+.con img{ margin-top: 8%; width: 100%;}
+.con .text{ font-size: 12px;line-height: 25px; margin-top:7%;}
+.con .text span{ font-weight: bold;}
+.aside{ width: 100%;}
+.aside h3{ margin-top:10%;}
+.aside .list{padding-top: 7%; padding-bottom:7%;}
+.aside .list .pic{width: 16%;}
+.aside .list .txt{ width: 79%;margin-left: 5%;font-size: 12px; line-height: 17px;}
+.aside .list .info{ padding-top: 30px; clear: both;}
+.main-mid{margin-top: 10%; padding-bottom: 10%;}
+.main-mid .list{ width:100%; margin: 0 auto;}
+.main-mid .last{ margin-right: 0px;}
+.main-mid .list img{ width: 100%;}
+.main-mid .list h3{ padding: 10% 0 10% 0;}
+.main-mid .list p{ font-size: 12px; line-height: 25px;margin-top: 25px;}
+.main-mid .list .more{ width: 100%; height: 35px;display: block; line-height:35px; background-color: #e95d3c; border-radius: 25px; margin: 10% 0 0 0; font-size: 14px;}
+.main-bot{ padding: 10% 0;}
+.main-bot .list{ width: 100%; float: none; margin-right:0; }
+.main-bot .list h3{font-size: 16px; padding: 5% 0;}
+.main-bot .list ul li{ font-size: 12px;line-height: 42px;}
+.main-bot .list .last-child{ border-bottom: none;}
+.main-bot .last{ margin-right: 0px;}
+.footer{ height: 30%; }
+.footer p{padding: 10% 0; font-size: 12px;}
+.backtop{ display: none; font-size: 30px;cursor: pointer; opacity: 0.8;}
+
+
+}
